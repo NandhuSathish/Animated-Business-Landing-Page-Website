@@ -1,0 +1,49 @@
+.about-section {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--pink);
+}
+.about {
+  display: flex;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+.about-hero {
+  flex: 1.2;
+  margin-left: 3rem;
+  background-image: url(/images/pic70.jpg);
+  background-repeat: no-repeat;
+  //   width: 70%;
+  background-position: center;
+  background-size: cover;
+}
+.about-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  line-height: 4rem;
+  padding-right: 2.5rem;
+  .about-text {
+    font-size: 4rem;
+    padding-bottom: 2rem;
+  }
+  .about-desc {
+    font-size: 2rem;
+  }
+  .get-touch {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 4rem;
+    padding: 1.5rem;
+    border: 1px solid var(--dpink);
+    border-radius: 5rem;
+    color: var(--dark);
+  }
+}
+.get-touch:hover {
+  border: 1px solid var(--dark);
+  color: var(--dpink);
+}

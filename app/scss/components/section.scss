@@ -1,0 +1,108 @@
+// .main-section {
+//   position: absolute;
+//   top: 0;
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-around;
+//   height: 300vh;
+//   flex-direction: column;
+//   width: 100%;
+// }
+.section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  background-color: var(--pink);
+  color: var(--dark);
+}
+.main-text {
+  font-size: 4rem;
+  font-weight: 400;
+}
+.reel {
+  display: flex;
+  animation: reel 80s linear infinite;
+
+  .pic {
+    background-position: center;
+    background-size: cover;
+    width: 30rem;
+    height: 20.2rem;
+    margin: 0 2rem;
+  }
+}
+@keyframes reel {
+  from {
+    transform: translateX(30%);
+  }
+  to {
+    transform: translateX(-30%);
+  }
+}
+.reel .pic0 {
+  background-image: url(/images/pic0.jpg);
+}
+.reel .pic1 {
+  background-image: url(/images/pic1.jpg);
+}
+.reel .pic2 {
+  background-image: url(/images/pic2.jpg);
+}
+.reel .pic3 {
+  background-image: url(/images/pic3.jpg);
+}
+.reel .pic4 {
+  background-image: url(/images/pic4.jpg);
+}
+.reel .pic5 {
+  background-image: url(/images/pic5.jpg);
+}
+.reel .pic6 {
+  background-image: url(/images/pic6.jpg);
+}
+.reel .pic7 {
+  background-image: url(/images/pic7.jpg);
+}
+.reel .pic8 {
+  background-image: url(/images/pic8.jpg);
+}
+.reel .pic9 {
+  background-image: url(/images/pic9.jpg);
+}
+.reel .pic10 {
+  background-image: url(/images/pic10.jpg);
+}
+.reel .pic11 {
+  background-image: url(/images/pic20.jpg);
+}
+.reel .pic12 {
+  background-image: url(/images/pic30.jpg);
+}
+.reel .pic13 {
+  background-image: url(/images/pic40.jpg);
+}
+.reel .pic14 {
+  background-image: url(/images/pic50.jpg);
+}
+.reel .pic15 {
+  background-image: url(/images/pic60.jpg);
+}
+.reel .pic16 {
+  background-image: url(/images/pic70.jpg);
+}
+.reel .pic17 {
+  background-image: url(/images/pic80.jpg);
+}
+.reel .pic18 {
+  background-image: url(/images/pic90.jpg);
+}
+.reel .pic19 {
+  background-image: url(/images/pic00.jpg);
+}
+.reel .pic20 {
+  background-image: url(/images/pic19.jpg);
+}
